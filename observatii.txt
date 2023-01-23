@@ -1,0 +1,36 @@
+
+0) ia n-1 fisiere la test?
+
+pt ISETC:
+======================================================
+1) sa folosim pt antrenament toate video disponibile (SYSU, UMF) - deci doar train nu si test
+======================================================
+2) evaluare doar pe baza setului de validare
+======================================================
+3) D = 32   #New Depth size => modificat number of frames
+======================================================
+4) # de incercat fara weights pretrained la VGG
+def build_vgg(shape)
+======================================================
+5) de incercat trainable!
+
+    for layer in model.layers[:-5]:
+        layer.trainable=False
+
+======================================================
+6)De analizat:
+
+    dataFrame = pd.concat([X_data_series, y_data_series], axis=1)
+
+    dataArray = np.array(dataFrame)
+    np.random.shuffle(dataArray)
+se face shuffle pe date de intrare si iesire?
+======================================================
+7) De ce toate imaginile sunt din aceeasi clasa?
+# **HAVE A LOOK AND PLOTS**
+def have_a_look(X_data, y_data):
+    plt.figure(figsize=(20, 20))
+    for n , i in enumerate(list(np.random.randint(0,len(X_data),36))): #Pick random 36 videos
+======================================================
+8) Luat nu frame cu frame ci offset + frame + pas
+======================================================

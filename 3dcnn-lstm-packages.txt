@@ -1,0 +1,18 @@
+pandas
+scipy  
+matplotlib
+seaborn
+pillow
+opencv-contrib-python == 4.6.0.66
+tensorflow == 2.8.2
+keras == 2.8.0
+scikit-learn ==  1.0.2
+tqdm
+jupyter notebook
+
+#python -m pip install jupyter notebook -U
+#Python:  3.7.13
+#tf:  2.8.2
+#keras:  2.8.0
+#opencv:  4.6.0
+#sklearn:  1.0.2
