@@ -7,7 +7,7 @@ no_classes = len(classes)
 # PATHS
 #code_base_directory = "/media/Data/MY/My Projects/Medical/CEUS/3dcnn-lstm/"
 #code_base_directory = "/media/cat/Backup/MY/My OneDrives/UPT/OneDrive - Universitatea Politehnica Timisoara/Cod/CEUS-Python/3dcnn-lstm/"
-code_base_directory = "/home/cat/MY/Projects/CEUS/Video/"
+code_base_directory = "/home/cat/MY/Projects/CEUS-Video/"
 
 #data_base_directory = "/media/Data/MY/My Databases/MEDICAL/CEUS/SYSU/DNN-Video/"
 #data_base_directory = "/media/cat/Backup/MY/My OneDrives/IEV/OneDrive - Universitatea Politehnica Timisoara/Baze de date/CEUS/SYSU-CEUS-FLL/DNN-Video/"
